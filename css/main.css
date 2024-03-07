@@ -1332,4 +1332,7 @@ picture {
 	.popup .swiper-button-prev {
 		display: none;
 	}
+
+	.inner4 h1{
+		font-size:26px
 }
