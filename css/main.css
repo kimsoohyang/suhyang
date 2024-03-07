@@ -1270,7 +1270,7 @@ picture {
         transition: all 0.5s;
         padding: 100px 40px 0px;
         box-sizing: border-box;
-		backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
     }
 
     input[id="menuicon"]:checked+label+div {
@@ -1334,5 +1334,6 @@ picture {
 	}
 
 	.inner4 h1{
-		font-size:26px
+		font-size:26px}
 }
+	
