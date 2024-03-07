@@ -1262,7 +1262,7 @@ picture {
     .sidebar {
         width: 50%;
         height: 100%;
-        background: #6b4c8050;
+        background: #472f5750;
         position: fixed;
         top: 0;
         right: -100%;
@@ -1270,7 +1270,7 @@ picture {
         transition: all 0.5s;
         padding: 100px 40px 0px;
         box-sizing: border-box;
-		backdrop-filter: blur(6px);
+		backdrop-filter: blur(10px);
     }
 
     input[id="menuicon"]:checked+label+div {
