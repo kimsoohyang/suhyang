@@ -1335,5 +1335,30 @@ picture {
 
 	.inner4 h1{
 		font-size:26px}
+
+	 .sidebar {
+        width: 50%;
+        height: 100%;
+        background: #472f5750;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 1;
+        transition: all 0.5s;
+        padding: 100px 40px 0px;
+        box-sizing: border-box;
+		backdrop-filter: blur(10px);
+    }
+
+    input[id="menuicon"]:checked+label+div {
+        right: 0;
+    }
+
+    .sidebar ul li a{
+        font-size: 21px;
+        color: #ffffff;
+		font-weight: 600;
+		letter-spacing: 1px;
+    }
 }
 	
