@@ -7,7 +7,7 @@
     //     delay: 6000,//자동으로 넘어가기 전 머무르는 시간
     //     disableOnInteraction: false,
     //   },
-      loop: true,//슬라이드 무한반복
+    //   loop: true,//슬라이드 무한반복
       navigation: {//화살표 버튼
         nextEl: '.gallery .swiper-button-next',
         prevEl: '.gallery .swiper-button-prev',
