@@ -167,7 +167,7 @@ body {
 .marquee div {
 	width: 200%;
 	height: 100px;
-	background: url(../images/marquee.png) repeat-x;
+	background: url(../images/marquee2.png) repeat-x;
 	position: absolute;
 	animation: marquee 25s linear infinite;
 }
@@ -340,6 +340,7 @@ picture {
 	margin: auto;
 	padding: 0;
 	margin: 0 auto;
+	box-sizing: border-box;
 }
 
 .inner4 h1 {
@@ -347,6 +348,8 @@ picture {
 	font-size: 60px;
 	color: #fff;
 	margin-bottom: 100px;
+	box-sizing: border-box;
+	/* padding-top: 100px; */
 }
 
 .inner4 h1 span {
@@ -362,10 +365,11 @@ picture {
 	display: flex;
 	justify-content: space-between;
 	margin: auto;
+
 }
 
 .r_box {
-	width: 19%;
+	width: 16%;
 	border-radius: 20px;
 	text-align: center;
 	transition: all 0.5s;
@@ -380,22 +384,28 @@ picture {
 	background-color: #fff;
 	border-radius: 10px 10px 0 0;
 	display: flex;
-	padding: 80px 55px 70px;
+	/* padding: 76px 55px 70px; */
 	box-sizing: border-box;
 	box-shadow: 0 0 20px rgb(192, 182, 201);
+	height: 190px;
 }
 
 .b_box {
 	background-color: #5bc3ff;
 	color: #fff;
-	font-size: 30px;
+	font-size: 24px;
 	font-weight: 700;
-	padding: 44px 0;
 	border-radius: 0 0 10px 10px;
 	box-shadow: 0 0 20px rgb(211, 211, 211);
+	height: 110px;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 5px;
 }
 
-
+/* 
 .re1 {
 	padding: 82.5px 55px 70px;
 }
@@ -410,7 +420,12 @@ picture {
 
 .re4 {
 	padding: 43.5px 0;
-}
+} */
+
+
+/* .re5{
+	padding: 50px;
+} */
 
 .rgb_box2 {
 	background-color: #ffb400;
@@ -428,10 +443,14 @@ picture {
 	background-color: #c67eff;
 }
 
+.rgb_box6{
+	background-color: #8181e5;
+}
 
 .r_box:hover {
 	transform: translateY(-20px);
 }
+
 
 
 /* 5 */
@@ -1125,13 +1144,17 @@ picture {
 	.box_wrap {
 		width: 95%;
 		flex-wrap: wrap;
+		justify-content: center;
 	}
 
 	.r_box {
-		width: 47%;
+		width: 40%;
 		padding: 0;
-		margin-bottom: 36px;
+		margin: 20px;
+
 	}
+
+
 
 	.inner4 h1 {
 		font-size: 34px;
@@ -1292,6 +1315,18 @@ picture {
 
 	.inner5 img{
 		display: none;
+	}
+
+	.b_box{
+		height: 90px;
+	}
+
+	.t_box img{
+		width: 30%;
+	}
+
+	.t_box .figma{
+		width: 20%;
 	}
 
 	/* 5 */
