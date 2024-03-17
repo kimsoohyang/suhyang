@@ -1027,9 +1027,16 @@ picture {
 		height: 140px;
 	}
 
+	.t_box img{
+		width: 33%;
+	}
+
+	.t_box .figma{
+		width: 20%;
+	}
+
 	.b_box {
 		padding: 0;
-		padding: 30px 0;
 		font-size: 22px;
 	}
 
@@ -1151,7 +1158,18 @@ picture {
 		width: 40%;
 		padding: 0;
 		margin: 20px;
+	}
 
+	.t_box{
+		height: 160px;
+	}
+
+	.t_box img{
+		width: 20%;
+	}
+
+	.t_box .figma{
+		width: 10%;
 	}
 
 
@@ -1390,6 +1408,21 @@ picture {
 	 .sidebar ul li a{
         font-size: 22px;}
 
+		/* 4 */
+		
+		.r_box{
+			width: 40%;
+			margin: 10px;
+		}
+
+		.t_box{
+			height: 120px;
+		}
+
+		.b_box{
+			height: 80px;
+			font-size: 18px;
+		}
 
 }
 	
