@@ -1,4 +1,21 @@
 // 풀페이지
+// 풀페이지 2.9.7버전 코드로 변경 
+$('#fullpage').fullpage({ // 3버전부터 new fullpage로 사용하고 이전 버전은 이렇게 시작됩니다.
+    verticalCentered: true,
+    anchors: ['anchor1', 'anchor2', 'anchor3', 'anchor4', 'anchor5'],
+    menu: '#menu',
+    scrollOverflow: true,
+    scrollingSpeed: 1000, //스크롤 속도
+    navigation: true, // 네비게이션 사용
+    navigationPosition: 'right', //네비게이션 위치
+    navigationTooltips: ['1', '2', '3', '4', '5', '6'], //네비게이션 호버 시 설명
+    responsiveWidth: 999, //반응형 너비지정 999px일 때 스크롤 생김.
+    afterResponsive: function (isResponsive) {
+        
+    }
+});
+
+/*
 var myFullpage = new fullpage('#fullpage', {
     verticalCentered: true,
     anchors: ['anchor1', 'anchor2', 'anchor3', 'anchor4', 'anchor5'],
@@ -13,6 +30,7 @@ var myFullpage = new fullpage('#fullpage', {
         
     }
 });
+*/
 
 // 팝업
 $(function () {
