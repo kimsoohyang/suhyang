@@ -20,6 +20,10 @@ body {
 	color: #000;
 }
 
+#fp-nav{
+	display: none;
+}
+
 
 /* menu */
 #menu {
