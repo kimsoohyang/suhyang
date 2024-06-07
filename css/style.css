@@ -825,6 +825,9 @@ footer h5 {
 
 @media(max-width:779px) {
 
+    main{
+        background-attachment:initial;
+    }
 
     .section1_in {
         padding: 10% 0 5%;
@@ -1036,10 +1039,6 @@ footer h5 {
 
 @media(max-width:604px) {
 
-
-    #main{
-        background-attachment:initial;
-    }
     
     .section1_in{
         padding: 17% 0 7%;
