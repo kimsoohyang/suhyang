@@ -1038,7 +1038,7 @@ footer h5 {
 
 
     main{
-        background-attachment: scroll;
+        background-attachment:initial;
     }
     
     .section1_in{
